@@ -1,0 +1,23 @@
+.hero-section {
+    background-image: url('/jason.jpg');
+    background-position: center 20%; /* ✅ Move image down for mobile */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll; /* ✅ Use 'scroll' for mobile stability */
+    
+}
+  
+  /* Tablet and up */
+  @media (min-width: 640px) {
+    .hero-section {
+      background-position: center 0%;
+      background-attachment: fixed; /* ✅ Enable parallax only for larger screens */
+    }
+  }
+  
+  /* Desktop */
+  @media (min-width: 850px) {
+    .hero-section {
+      background-position: center -40%;
+    }
+  }
