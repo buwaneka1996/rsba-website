@@ -21,7 +21,7 @@ export default function Header() {
             alt="RSBA Logo" href="/home"
             width={40}
             height={40}
-            style={{ width: "auto", height: "auto" }}
+            //style={{ width: "auto", height: "auto" }}
             className="ml-4 mr-4 rounded-full"
             pathname="/home"
             priority
