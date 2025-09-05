@@ -19,7 +19,7 @@ export default function Coaches() {
             name1: item.name1?.trim(),
             name2: item.name2?.trim(),
             experience: item.experience?.trim(),
-            bio: item.bio?.split(".").map((b) => b.trim()),
+            bio: item.bio?.split("/").map((b) => b.trim()),
             img: item.img?.trim(),
           }))
           .filter((c) => c.name1 && c.img);

@@ -95,8 +95,9 @@ export default function Home() {
     <main className="min-h-screen flex flex-col items-center p-8 bg-gradient-to-r from-orange-600 to-gray-800">
 
       {/* Hero Section */}
-      <section
+      <div
         className="hero-section relative w-full h-[600px] sm:h-[600px] lg:h-[650px] xl:h-[700px] flex items-center justify-center text-center text-white mt-20 pt-2 cursor-default"
+        
       >
         <div className="absolute inset-0 bg-black/50"></div>
 
@@ -129,7 +130,7 @@ export default function Home() {
             </motion.a>
           </div>
         </motion.div>
-      </section>
+      </div>
 
 
       <motion.section
