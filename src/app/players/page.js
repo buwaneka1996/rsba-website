@@ -148,8 +148,8 @@ if (loading) {
 
                     <p className="text-gray-600 text-xs">Age: {player.age}</p>
                     <p className="text-gray-600 text-xs">Event: {player.playingEvent}</p>
-                    <p className="text-gray-600 text-xs">World Rank: #{player.bestWorldRanking}</p>
-                    <p className="text-gray-600 text-xs">Local Rank: #{player.localRanking}</p>
+                    <p className="text-gray-600 text-xs">World Rank: {player.bestWorldRanking}</p>
+                    <p className="text-gray-600 text-xs">Local Rank: {player.localRanking}</p>
 
                     <button
                       className="mt-2 bg-blue-500 text-white text-xs px-3 py-1 rounded hover:bg-blue-600 transition"
